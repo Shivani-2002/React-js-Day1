@@ -13,6 +13,12 @@
   }
 }
 
+#namediv{
+  position: absolute;
+  color:blueviolet;
+  text-align: center;
+  width:100%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +34,15 @@
   color: #61dafb;
 }
 
+
+#footer{
+  position: absolute;
+  bottom:0;
+  font-size: 20px;
+  color:rgb(43, 153, 226);
+  text-align: center;
+  width:100%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
